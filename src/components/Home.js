@@ -1,12 +1,16 @@
 import React, { Component } from "react";
 import MyLogo from "./MyLogo";
-import '../App.css'
+import LinksBar from "./LinksBar";
+import "../App.css";
 
 const Home = () => {
   {
-    return <>
-        <MyLogo/>
-    </>;
+    return (
+      <>
+        <MyLogo />
+        <LinksBar/>
+      </>
+    );
   }
 };
 

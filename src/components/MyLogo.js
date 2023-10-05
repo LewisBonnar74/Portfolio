@@ -6,7 +6,9 @@ const MyLogo = () => {
   {
     return (
       <>
-        <img src={logo} alt="" className="my-logo" />
+          <a href="/" className="logo-container">
+            <img src={logo} alt="" className="my-logo" />
+          </a>
       </>
     );
   }
