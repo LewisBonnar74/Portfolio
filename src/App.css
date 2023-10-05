@@ -1,0 +1,10 @@
+.App {
+  height: 100vh;
+  background: linear-gradient(140deg, #020a1b, #1d0c49, #010727, #010720);
+}
+
+.my-logo {
+  width: 150px;
+  height: 150px;
+  position: fixed;
+}

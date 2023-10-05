@@ -1,9 +1,10 @@
-import './App.css';
+import "./App.css";
+import PortfolioContainer from "./containers/PortfolioContainer";
 
 function App() {
   return (
-    <div>
-    portfolio
+    <div className="App">
+      <PortfolioContainer />
     </div>
   );
 }
