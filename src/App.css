@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "GaretThin";
+  src: url("./assets/Garet-Book.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "GaretBold";
+  src: url("./assets/Garet-Heavy.ttf") format("woff2");
+}
+
 .App {
   height: 100vh;
   background: linear-gradient(140deg, #020a1b, #1d0c49, #010727, #010720);
@@ -12,16 +22,92 @@
   position: fixed;
 }
 
-.styled-github {
-  top: 200px;
-  left: 400px;
-  position: fixed;
+.links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  position: relative;
+  top: calc(25%);
+  left: calc(22%);
 }
 
-.styled-mail {
-  width: 70px;
-  height: 70px;
-  top: 300px;
-  left: 411px;
-  position: fixed;
+.links-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-li {
+  margin-bottom: 20px;
+}
+
+.link-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.name-and-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  position: relative;
+  left: calc(28%);
+  top: calc(-1%);
+  padding: 0;
+}
+
+.name {
+  color: white;
+  font-size: 3rem;
+  padding: 0;
+  margin-bottom: -10px;
+  font-family: "GaretBold";
+}
+
+.title {
+  color: white;
+  font-family: "GaretBold";
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.subtitle {
+  color: white;
+  font-size: 1rem;
+  font-family: "GaretThin";
+  padding: 0;
+  margin: 2px;
+}
+
+.bio-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 25%;
+  position: relative;
+  left: calc(54%);
+  top: calc(-22%);
+  padding: 0;
+}
+.p1 {
+  color: white;
+  font-family: 'GaretThin';
+  margin-bottom: 1px;
+  padding: 0;
+}
+.p2 {
+  color: white;
+  font-family: 'GaretThin';
+  margin-bottom: 1px;
+  padding: 0;
+}
+.p3 {
+  color: white;
+  font-family: 'GaretThin';
+  margin-bottom: 1px;
+  padding: 0;
 }
