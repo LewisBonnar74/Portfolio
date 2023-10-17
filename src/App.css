@@ -89,9 +89,10 @@
   height: auto;
   width: 25%;
   position: relative;
-  left: calc(54%);
+  left: calc(51%);
   top: calc(-22%);
   padding: 0;
+  text-align: justify;
 }
 .p1 {
   color: white;
